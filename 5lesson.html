@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Lesson 5</title>
+
+
+</head>
+
+<body>
+	<h1> Lesson 5 </h1>
+	<script>
+
+		var you = "Marcos"//variable
+		alert("Hello World! ")//alert
+		document.write("Hello" +" "+ you)
+
+		2===3;
+
+		if(5>10){
+			console.log("Five is less than Ten");
+		}
+		if(5<10){
+			console.log("Five is more than Ten.");
+		}	else {
+			console.log("Five is less than Ten.")
+		}
+		// results from team1 vs team2
+		var teamnum1 = 89;
+		var teamnum2 = 90;
+		var ans = teamnum1 + teamnum2;
+		console.log("The final score is between team#1 and Team#2 is"+ " " + "team#1" +" " +teamnum1 + "  " + "team#2" +" " + teamnum2 + " " + "Final" + " " + ans);
+
+		if(teamnum1 < teamnum2) {
+			console.log("The Number one team lost");
+		}
+			else  {
+			console.log("Number two team defeats number one team");
+			}
+
+		var me = "Marcos ";
+		var last = "DeLima ";
+		var fullname = me + last;
+		typeof(me);
+		console.log(fullname)
+		if(fullname.length > 10) {
+			console.log("You have a long name");
+		}
+		else {
+			console.log("You have a short name")
+			}
+
+		var days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+		for(var j = 0; j < days.length; j++){
+			document.write(days[j] +',');
+		}
+		function met(name){
+			return document.write(name);
+		}
+		met ("Marcos' function");
+		
+
+		function printToday() {
+			var today = new Date();
+			document.write(today.toDateString());
+		}
+		printToday();
+
+
+		
+
+
+
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
